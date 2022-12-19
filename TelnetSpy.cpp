@@ -40,7 +40,7 @@ TelnetSpy::TelnetSpy() {
 	started = false;
 	listening = false;
 	firstMainLoop = true;
-	usedSer = &Serial;
+	usedSer = NULL;
 	storeOffline = true;
 	connected = false;
 	callbackConnect = NULL;
